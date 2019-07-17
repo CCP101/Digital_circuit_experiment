@@ -1,0 +1,6 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+a = 1100,b = 0100,cin = 0,sum =10000
+a = 1100,b = 0110,cin = 1,sum =10011
+a = 0010,b = 0101,cin = 1,sum =01000
+a = 1000,b = 1010,cin = 0,sum =10010

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'mux41/select_r' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:05.753+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'mux41/sig_d' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:05.744+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'mux41/sig_c' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:05.736+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'mux41/sig_b' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:05.729+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'mux41/select' to 'mux41/select_r' to avoid the conflict with HDL keywords or other object names." projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:05.552+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from mux41.c:1:&#xD;&#xA;mux41.c:13:1: warning: control may reach end of non-void function [-Wreturn-type]&#xD;&#xA;}&#xD;&#xA;^&#xD;&#xA;1 warning generated.\n" projectName="mux41" solutionName="solution1" date="2019-07-15T16:03:04.567+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

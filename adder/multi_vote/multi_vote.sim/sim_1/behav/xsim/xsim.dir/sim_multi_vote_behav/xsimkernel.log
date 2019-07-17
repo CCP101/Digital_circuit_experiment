@@ -1,0 +1,7 @@
+Running: xsim.dir/sim_multi_vote_behav/xsimk.exe -simmode gui -wdb sim_multi_vote_behav.wdb -simrunnum 0 -socket 57705
+Design successfully loaded
+Design Loading Memory Usage: 6316 KB (Peak: 6316 KB)
+Design Loading CPU Usage: 171 ms
+Simulation completed
+Simulation Memory Usage: 6872 KB (Peak: 6872 KB)
+Simulation CPU Usage: 171 ms

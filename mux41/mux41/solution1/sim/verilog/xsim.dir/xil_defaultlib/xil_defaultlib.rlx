@@ -1,0 +1,6 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+F:/test/mux41/mux41/solution1/sim/verilog/mux41.autotb.v,1563177860,systemVerilog,,,,apatb_mux41_top,C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
+F:/test/mux41/mux41/solution1/sim/verilog/mux41.v,1563177785,systemVerilog,,,,mux41,C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,

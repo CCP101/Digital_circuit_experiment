@@ -1,0 +1,129 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling apatb_mux41.cpp
+   Compiling (apcc) mux41_test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '10575' on host 'desktop-k13vcfg' (Windows NT_amd64 version 6.2) on Mon Jul 15 16:04:05 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/test/mux41/mux41/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from F:/test/mux41/mux41_test.c:1:
+F:/test/mux41/mux41_test.c:11:10: warning: implicit conversion from 'int' to 'int1' changes value from 2 to 0 [-Wconstant-conversion]
+(0,0,1,0,2);
+         ^
+F:/test/mux41/mux41_test.c:12:8: warning: implicit conversion from 'int' to 'int1' changes value from 2 to 0 [-Wconstant-conversion]
+(0,0,0,2,3);
+       ^
+F:/test/mux41/mux41_test.c:12:10: warning: implicit conversion from 'int' to 'int1' changes value from 3 to -1 [-Wconstant-conversion]
+(0,0,0,2,3);
+         ^
+3 warnings generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) mux41.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '10575' on host 'desktop-k13vcfg' (Windows NT_amd64 version 6.2) on Mon Jul 15 16:04:12 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/test/mux41/mux41/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from F:/test/mux41/mux41.c:1:
+F:/test/mux41/mux41.c:13:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+
+F:\test\mux41\mux41\solution1\sim\verilog>set PATH= 
+
+F:\test\mux41\mux41\solution1\sim\verilog>call C:/Xilinx/Vivado/2018.2/bin/xelab xil_defaultlib.apatb_mux41_top glbl -prj mux41.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s mux41 -debug wave 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_mux41_top glbl -prj mux41.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s mux41 -debug wave 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/test/mux41/mux41/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/test/mux41/mux41/solution1/sim/verilog/mux41.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_mux41_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/test/mux41/mux41/solution1/sim/verilog/mux41.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux41
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux41
+Compiling module xil_defaultlib.apatb_mux41_top
+Compiling module work.glbl
+Built simulation snapshot mux41
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/test/mux41/mux41/solution1/sim/verilog/xsim.dir/mux41/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/test/mux41/mux41/solution1/sim/verilog/xsim.dir/mux41/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jul 15 16:04:29 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 15 16:04:29 2019...
+
+****** xsim v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/mux41/xsim_script.tcl
+# xsim {mux41} -autoloadwcfg -tclbatch {mux41.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source mux41.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_mux41_top/AESL_inst_mux41/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_return -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set select_group [add_wave_group select(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/select_r -into $select_group -radix hex
+## set sig_d_group [add_wave_group sig_d(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_d -into $sig_d_group -radix hex
+## set sig_c_group [add_wave_group sig_c(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_c -into $sig_c_group -radix hex
+## set sig_b_group [add_wave_group sig_b(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_b -into $sig_b_group -radix hex
+## set sig_a_group [add_wave_group sig_a(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_a -into $sig_a_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_start -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_done -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_idle -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## save_wave_config mux41.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 4 [n/a] @ "125000"
+// RTL Simulation : 1 / 4 [n/a] @ "145000"
+// RTL Simulation : 2 / 4 [n/a] @ "155000"
+// RTL Simulation : 3 / 4 [n/a] @ "165000"
+// RTL Simulation : 4 / 4 [n/a] @ "175000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 215 ns : File "F:/test/mux41/mux41/solution1/sim/verilog/mux41.autotb.v" Line 283
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Jul 15 16:04:42 2019...
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.

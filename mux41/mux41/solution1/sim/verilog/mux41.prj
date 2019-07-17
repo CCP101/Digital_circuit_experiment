@@ -1,0 +1,4 @@
+sv work "glbl.v"
+sv xil_defaultlib "mux41.autotb.v"
+sv xil_defaultlib "mux41.v"
+

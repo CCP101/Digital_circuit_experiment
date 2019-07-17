@@ -1,0 +1,35 @@
+   Build using "C:/Xilinx/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling apatb_mux41.cpp
+   Compiling (apcc) mux41_test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '10575' on host 'desktop-k13vcfg' (Windows NT_amd64 version 6.2) on Mon Jul 15 16:04:05 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/test/mux41/mux41/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from F:/test/mux41/mux41_test.c:1:
+F:/test/mux41/mux41_test.c:11:10: warning: implicit conversion from 'int' to 'int1' changes value from 2 to 0 [-Wconstant-conversion]
+(0,0,1,0,2);
+         ^
+F:/test/mux41/mux41_test.c:12:8: warning: implicit conversion from 'int' to 'int1' changes value from 2 to 0 [-Wconstant-conversion]
+(0,0,0,2,3);
+       ^
+F:/test/mux41/mux41_test.c:12:10: warning: implicit conversion from 'int' to 'int1' changes value from 3 to -1 [-Wconstant-conversion]
+(0,0,0,2,3);
+         ^
+3 warnings generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) mux41.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '10575' on host 'desktop-k13vcfg' (Windows NT_amd64 version 6.2) on Mon Jul 15 16:04:12 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/test/mux41/mux41/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from F:/test/mux41/mux41.c:1:
+F:/test/mux41/mux41.c:13:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe

@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jul 15 16:04:31 2019
+# Process ID: 2928
+# Current directory: F:/test/mux41/mux41/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/mux41/xsim_script.tcl}
+# Log file: F:/test/mux41/mux41/solution1/sim/verilog/xsim.log
+# Journal file: F:/test/mux41/mux41/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/mux41/xsim_script.tcl
+# xsim {mux41} -autoloadwcfg -tclbatch {mux41.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source mux41.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_mux41_top/AESL_inst_mux41/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_return -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set select_group [add_wave_group select(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/select_r -into $select_group -radix hex
+## set sig_d_group [add_wave_group sig_d(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_d -into $sig_d_group -radix hex
+## set sig_c_group [add_wave_group sig_c(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_c -into $sig_c_group -radix hex
+## set sig_b_group [add_wave_group sig_b(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_b -into $sig_b_group -radix hex
+## set sig_a_group [add_wave_group sig_a(wire) -into $cinputgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/sig_a -into $sig_a_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_start -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_done -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_idle -into $blocksiggroup
+## add_wave /apatb_mux41_top/AESL_inst_mux41/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## save_wave_config mux41.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 4 [n/a] @ "125000"
+// RTL Simulation : 1 / 4 [n/a] @ "145000"
+// RTL Simulation : 2 / 4 [n/a] @ "155000"
+// RTL Simulation : 3 / 4 [n/a] @ "165000"
+// RTL Simulation : 4 / 4 [n/a] @ "175000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 215 ns : File "F:/test/mux41/mux41/solution1/sim/verilog/mux41.autotb.v" Line 283
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Jul 15 16:04:42 2019...
